@@ -22,6 +22,7 @@ $('#btnsubmit').click(function () {
         success: function (result) {
             alert('file uploaded successfully');
             window.location.href = '../Home/Index';
+
         },
         error: function (err) {
             alert('Error occured');
